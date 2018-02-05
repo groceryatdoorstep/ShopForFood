@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/screen_background_color"
-    tools:context="com.grocery.mangal.shopforfood.shopdetail.AapBarActivityHomePage">
+    >
 
     <LinearLayout
         android:layout_width="match_parent"

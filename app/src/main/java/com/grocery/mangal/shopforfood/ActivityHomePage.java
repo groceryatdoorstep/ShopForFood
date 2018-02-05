@@ -36,7 +36,6 @@ public class ActivityHomePage extends AppCompatActivity
     private Button shopSearchBtn;
     private boolean isHomeEnabled;
 
-    @SuppressLint("WrongViewCast")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -155,6 +154,7 @@ public class ActivityHomePage extends AppCompatActivity
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
                 Intent intent = new Intent(ActivityHomePage.this, MainActivity.class);
+                finish();
                 intent.putExtra("logMessage", "You have successfully logged out");
                 startActivity(intent);
             }

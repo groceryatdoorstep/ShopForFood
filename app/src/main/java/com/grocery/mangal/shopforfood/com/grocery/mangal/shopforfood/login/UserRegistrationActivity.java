@@ -146,6 +146,7 @@ public class UserRegistrationActivity extends Activity implements View.OnClickLi
                 intent.putExtra("loggedUserName", userName);
                 intent.putExtra("loggedUserEmail", email);
                 intent.putExtra("userFlage", userFlag);
+                finish();
                 startActivity(intent);
             } else {
                 Toast.makeText(this, "Registration failed. Please try again. " + userName, Toast.LENGTH_SHORT).show();

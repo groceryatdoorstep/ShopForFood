@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Grocery Mania</string>
+    <string name="title_activity_home_page"></string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings relatedactivity_loginogin -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+    <string name="login_username">User name</string>
+    <string name="login_Password">Password</string>
+    <string name="login_button">Login</string>
+    <string name="login_as_buyer">As buyer</string>
+    <string name="login_as_seller">As seller</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <!--All label properties value goes here -->
+    <string name="lbl_shop_near_me">Shop near me</string>
+    <string name="today_offer">Upto 50% off on all Items</string>
+    <string name="search_hint">Search locations</string>
+    <string name="app_label">Grocery Mania</string>
+</resources>

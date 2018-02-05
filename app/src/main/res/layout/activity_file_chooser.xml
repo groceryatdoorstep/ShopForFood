@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="android.support.design.widget.BottomSheetBehavior"
+    tools:context="com.grocery.mangal.shopforfood.FileChooserActivity">
+
+    <FrameLayout
+        android:id="@+id/design_bottom_sheet"
+        android:layout_width="match_parent"
+        android:layout_height="192dp">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="142dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="30px"
+            android:layout_marginTop="30px"
+            android:text="Profile photo"
+            android:textAlignment="viewStart"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/galleryImageId"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="100px"
+            android:layout_marginTop="180px"
+            android:background="@mipmap/ic_gallery_pic" />
+
+        <ImageView
+            android:id="@+id/cameraImageId"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="350px"
+            android:layout_marginTop="185px"
+            android:background="@mipmap/ic_camera_for_popup" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="315px"
+            android:layout_marginTop="410px"
+            android:text="Camera"
+            android:textAlignment="center"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="70px"
+            android:layout_marginTop="410px"
+            android:text="Gallery"
+            android:textAlignment="center"
+            android:textSize="14sp" />
+    </FrameLayout>
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_google_signin_btn_text_dark_default"
+    android:orientation="vertical"
+    tools:context="com.grocery.mangal.shopforfood.com.grocery.mangal.shopforfood.shopdetail.ShopDetailActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="133dp">
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="15px"
+            android:text="@string/today_offer"
+            android:textAlignment="center"
+            android:textColor="@color/colorButton"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/groceryImageViewId"
+            android:layout_width="180dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="250px"
+            android:layout_marginTop="80px"
+            android:background="@drawable/grocery_image" />
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewPagerId"
+            android:layout_width="180dp"
+            android:layout_height="90dp">
+
+        </android.support.v4.view.ViewPager>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/groceryGroupImageId"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:drawable/screen_background_light"
+            android:listSelector="#FBEEE6" />
+    </LinearLayout>
+
+</LinearLayout>
